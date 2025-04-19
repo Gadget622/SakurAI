@@ -1,0 +1,4 @@
+js/global.js -- function that loads character data
+js/character.js -- character identification info
+js/KH_API.js -- MoveParser class that parses move data
+js/move.js -- Move class that shows the structure of move data.

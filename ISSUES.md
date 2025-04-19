@@ -1,0 +1,1 @@
+Move types aren't being identified correctly with Incineroar. What move types are there, and which moves are which type?
