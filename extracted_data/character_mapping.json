@@ -1,0 +1,795 @@
+{
+  "Mario": {
+    "internal_name": "mario",
+    "value": "mario",
+    "number": "01",
+    "id": 1,
+    "series": "super-mario",
+    "completed": true,
+    "version": "v13.0.1"
+  },
+  "Luigi": {
+    "internal_name": "luigi",
+    "value": "luigi",
+    "number": "09",
+    "id": 10,
+    "series": "super-mario",
+    "completed": true,
+    "version": "v13.0.1"
+  },
+  "Peach": {
+    "internal_name": "peach",
+    "value": "peach",
+    "number": "13",
+    "id": 14,
+    "series": "super-mario",
+    "completed": true,
+    "version": "v13.0.1"
+  },
+  "Bowser": {
+    "internal_name": "koopa",
+    "value": "bowser",
+    "number": "14",
+    "id": 16,
+    "series": "super-mario",
+    "completed": true,
+    "version": "v13.0.1"
+  },
+  "Yoshi": {
+    "internal_name": "yoshi",
+    "value": "yoshi",
+    "number": "05",
+    "id": 6,
+    "series": "yoshi",
+    "completed": true,
+    "version": "v13.0.1"
+  },
+  "Rosalina & Luma": {
+    "internal_name": "rosetta",
+    "value": "rosalina-luma",
+    "number": "48",
+    "id": 53,
+    "series": "super-mario",
+    "completed": true,
+    "version": "v13.0.1"
+  },
+  "Bowser Jr.": {
+    "internal_name": "koopajr",
+    "value": "bowser-jr",
+    "number": "58",
+    "id": 63,
+    "series": "super-mario",
+    "completed": true,
+    "version": "v13.0.1"
+  },
+  "Wario": {
+    "internal_name": "wario",
+    "value": "wario",
+    "number": "30",
+    "id": 35,
+    "series": "wario",
+    "completed": true,
+    "version": "v13.0.1"
+  },
+  "Donkey Kong": {
+    "internal_name": "donkey",
+    "value": "donkey-kong",
+    "number": "02",
+    "id": 2,
+    "series": "donkey-kong",
+    "completed": true,
+    "version": "v13.0.1"
+  },
+  "Diddy Kong": {
+    "internal_name": "diddy",
+    "value": "diddy-kong",
+    "number": "36",
+    "id": 41,
+    "series": "donkey-kong",
+    "completed": true,
+    "version": "v13.0.1"
+  },
+  "Mr. Game & Watch": {
+    "internal_name": "gamewatch",
+    "value": "mr-game-watch",
+    "number": "26",
+    "id": 30,
+    "series": "game-watch",
+    "completed": true,
+    "version": "v13.0.1"
+  },
+  "Little Mac": {
+    "internal_name": "littlemac",
+    "value": "little-mac",
+    "number": "49",
+    "id": 54,
+    "series": "punch-out",
+    "completed": true,
+    "version": "v13.0.1"
+  },
+  "Link": {
+    "internal_name": "link",
+    "value": "link",
+    "number": "03",
+    "id": 3,
+    "series": "legend-of-zelda",
+    "completed": true,
+    "version": "v13.0.1"
+  },
+  "Zelda": {
+    "internal_name": "zelda",
+    "value": "zelda",
+    "number": "17",
+    "id": 19,
+    "series": "legend-of-zelda",
+    "completed": true,
+    "version": "v13.0.1"
+  },
+  "Sheik": {
+    "internal_name": "sheik",
+    "value": "sheik",
+    "number": "16",
+    "id": 18,
+    "series": "legend-of-zelda",
+    "completed": true,
+    "version": "v13.0.1"
+  },
+  "Ganondorf": {
+    "internal_name": "ganon",
+    "value": "ganondorf",
+    "number": "23",
+    "id": 26,
+    "series": "legend-of-zelda",
+    "completed": true,
+    "version": "v13.0.1"
+  },
+  "Toon Link": {
+    "internal_name": "toonlink",
+    "value": "toon-link",
+    "number": "43",
+    "id": 48,
+    "series": "legend-of-zelda",
+    "completed": true,
+    "version": "v13.0.1"
+  },
+  "Samus": {
+    "internal_name": "samus",
+    "value": "samus",
+    "number": "04",
+    "id": 4,
+    "series": "metroid",
+    "completed": true,
+    "version": "v13.0.1"
+  },
+  "Zero Suit Samus": {
+    "internal_name": "szerosuit",
+    "value": "zero-suit-samus",
+    "number": "29",
+    "id": 34,
+    "series": "metroid",
+    "completed": true,
+    "version": "v13.0.1"
+  },
+  "Pit": {
+    "internal_name": "pit",
+    "value": "pit",
+    "number": "28",
+    "id": 32,
+    "series": "kid-icarus",
+    "completed": true,
+    "version": "v13.0.1"
+  },
+  "Palutena": {
+    "internal_name": "palutena",
+    "value": "palutena",
+    "number": "54",
+    "id": 59,
+    "series": "kid-icarus",
+    "completed": true,
+    "version": "v13.0.1"
+  },
+  "Marth": {
+    "internal_name": "marth",
+    "value": "marth",
+    "number": "21",
+    "id": 23,
+    "series": "fire-emblem",
+    "completed": true,
+    "version": "v13.0.1"
+  },
+  "Ike": {
+    "internal_name": "ike",
+    "value": "ike",
+    "number": "32",
+    "id": 37,
+    "series": "fire-emblem",
+    "completed": true,
+    "version": "v13.0.1"
+  },
+  "Robin": {
+    "internal_name": "reflet",
+    "value": "robin",
+    "number": "56",
+    "id": 61,
+    "series": "fire-emblem",
+    "completed": true,
+    "version": "v13.0.1"
+  },
+  "Duck Hunt": {
+    "internal_name": "duckhunt",
+    "value": "duck-hunt",
+    "number": "59",
+    "id": 64,
+    "series": "duck-hunt",
+    "completed": true,
+    "version": "v13.0.1"
+  },
+  "Kirby": {
+    "internal_name": "kirby",
+    "value": "kirby",
+    "number": "06",
+    "id": 7,
+    "series": "kirby",
+    "completed": true,
+    "version": "v13.0.1"
+  },
+  "King Dedede": {
+    "internal_name": "dedede",
+    "value": "king-dedede",
+    "number": "39",
+    "id": 44,
+    "series": "kirby",
+    "completed": true,
+    "version": "v13.0.1"
+  },
+  "Meta Knight": {
+    "internal_name": "metaknight",
+    "value": "meta-knight",
+    "number": "27",
+    "id": 31,
+    "series": "kirby",
+    "completed": true,
+    "version": "v13.0.1"
+  },
+  "Fox": {
+    "internal_name": "fox",
+    "value": "fox",
+    "number": "07",
+    "id": 8,
+    "series": "star-fox",
+    "completed": true,
+    "version": "v13.0.1"
+  },
+  "Falco": {
+    "internal_name": "falco",
+    "value": "falco",
+    "number": "20",
+    "id": 22,
+    "series": "star-fox",
+    "completed": true,
+    "version": "v13.0.1"
+  },
+  "Pikachu": {
+    "internal_name": "pikachu",
+    "value": "pikachu",
+    "number": "08",
+    "id": 9,
+    "series": "pokemon",
+    "completed": true,
+    "version": "v13.0.1"
+  },
+  "Charizard": {
+    "internal_name": "plizardon",
+    "value": "charizard",
+    "number": "35",
+    "id": 40,
+    "series": "pokemon",
+    "completed": true,
+    "version": "v13.0.1"
+  },
+  "Lucario": {
+    "internal_name": "lucario",
+    "value": "lucario",
+    "number": "41",
+    "id": 46,
+    "series": "pokemon",
+    "completed": true,
+    "version": "v13.0.1"
+  },
+  "Jigglypuff": {
+    "internal_name": "purin",
+    "value": "jigglypuff",
+    "number": "12",
+    "id": 13,
+    "series": "pokemon",
+    "completed": true,
+    "version": "v13.0.1"
+  },
+  "Greninja": {
+    "internal_name": "gekkouga",
+    "value": "greninja",
+    "number": "50",
+    "id": 55,
+    "series": "pokemon",
+    "completed": true,
+    "version": "v13.0.1"
+  },
+  "R.O.B": "robot",
+  "Ness": {
+    "internal_name": "ness",
+    "value": "ness",
+    "number": "10",
+    "id": 11,
+    "series": "earthbound",
+    "completed": true,
+    "version": "v13.0.1"
+  },
+  "Captain Falcon": {
+    "internal_name": "captain",
+    "value": "captain-falcon",
+    "number": "11",
+    "id": 12,
+    "series": "f-zero",
+    "completed": true,
+    "version": "v13.0.1"
+  },
+  "Villager": {
+    "internal_name": "murabito",
+    "value": "villager",
+    "number": "45",
+    "id": 50,
+    "series": "animal-crossing",
+    "completed": true,
+    "version": "v13.0.1"
+  },
+  "Olimar": {
+    "internal_name": "pikmin",
+    "value": "olimar",
+    "number": "40",
+    "id": 45,
+    "series": "pikmin",
+    "completed": true,
+    "version": "v13.0.1"
+  },
+  "Wii Fit Trainer": {
+    "internal_name": "wiifit",
+    "value": "wii-fit-trainer",
+    "number": "47",
+    "id": 52,
+    "series": "wii-fit",
+    "completed": true,
+    "version": "v13.0.1"
+  },
+  "Shulk": {
+    "internal_name": "shulk",
+    "value": "shulk",
+    "number": "57",
+    "id": 62,
+    "series": "xenoblade",
+    "completed": true,
+    "version": "v13.0.1"
+  },
+  "Dr. Mario": {
+    "internal_name": "mariod",
+    "value": "dr-mario",
+    "number": "18",
+    "id": 20,
+    "series": "super-mario",
+    "completed": true,
+    "version": "v13.0.1"
+  },
+  "Dark Pit": {
+    "internal_name": "pitb",
+    "value": "dark-pit",
+    "number": "28e",
+    "id": 33,
+    "series": "kid-icarus",
+    "completed": true,
+    "version": "v13.0.1"
+  },
+  "Lucina": {
+    "internal_name": "lucina",
+    "value": "lucina",
+    "number": "21e",
+    "id": 24,
+    "series": "fire-emblem",
+    "completed": true,
+    "version": "v13.0.1"
+  },
+  "PAC-MAN": {
+    "internal_name": "pacman",
+    "value": "pac-man",
+    "number": "55",
+    "id": 60,
+    "series": "pac-man",
+    "completed": true,
+    "version": "v13.0.1"
+  },
+  "Mega Man": {
+    "internal_name": "rockman",
+    "value": "mega-man",
+    "number": "46",
+    "id": 51,
+    "series": "mega-man",
+    "completed": true,
+    "version": "v13.0.1"
+  },
+  "Sonic": {
+    "internal_name": "sonic",
+    "value": "sonic",
+    "number": "38",
+    "id": 43,
+    "series": "sonic",
+    "completed": true,
+    "version": "v13.0.1"
+  },
+  "Mewtwo": {
+    "internal_name": "mewtwo",
+    "value": "mewtwo",
+    "number": "24",
+    "id": 27,
+    "series": "pokemon",
+    "completed": true,
+    "version": "v13.0.1"
+  },
+  "Lucas": {
+    "internal_name": "lucas",
+    "value": "lucas",
+    "number": "37",
+    "id": 42,
+    "series": "earthbound",
+    "completed": true,
+    "version": "v13.0.1"
+  },
+  "Roy": {
+    "internal_name": "roy",
+    "value": "roy",
+    "number": "25",
+    "id": 28,
+    "series": "fire-emblem",
+    "completed": true,
+    "version": "v13.0.1"
+  },
+  "Ryu": {
+    "internal_name": "ryu",
+    "value": "ryu",
+    "number": "60",
+    "id": 65,
+    "series": "street-fighter",
+    "completed": true,
+    "version": "v13.0.1"
+  },
+  "Cloud": {
+    "internal_name": "cloud",
+    "value": "cloud",
+    "number": "61",
+    "id": 67,
+    "series": "final-fantasy",
+    "completed": true,
+    "version": "v13.0.1"
+  },
+  "Corrin": {
+    "internal_name": "kamui",
+    "value": "corrin",
+    "number": "62",
+    "id": 68,
+    "series": "fire-emblem",
+    "completed": true,
+    "version": "v13.0.1"
+  },
+  "Bayonetta": {
+    "internal_name": "bayonetta",
+    "value": "bayonetta",
+    "number": "63",
+    "id": 69,
+    "series": "bayonetta",
+    "completed": true,
+    "version": "v13.0.1"
+  },
+  "Mii Swordfighter": {
+    "internal_name": "miiswordsman",
+    "value": "mii-swordfighter",
+    "number": "52",
+    "id": 57,
+    "series": "smash-bros",
+    "completed": true,
+    "version": "v13.0.1"
+  },
+  "Mii Brawler": {
+    "internal_name": "miifighter",
+    "value": "mii-brawler",
+    "number": "51",
+    "id": 56,
+    "series": "smash-bros",
+    "completed": true,
+    "version": "v13.0.1"
+  },
+  "Mii Gunner": {
+    "internal_name": "miigunner",
+    "value": "mii-gunner",
+    "number": "53",
+    "id": 58,
+    "series": "smash-bros",
+    "completed": true,
+    "version": "v13.0.1"
+  },
+  "Ice Climbers": {
+    "internal_name": "popo",
+    "value": "ice-climbers",
+    "number": "15",
+    "id": 17,
+    "series": "ice-climber",
+    "completed": true,
+    "version": "v13.0.1"
+  },
+  "Pichu": {
+    "internal_name": "pichu",
+    "value": "pichu",
+    "number": "19",
+    "id": 21,
+    "series": "pokemon",
+    "completed": true,
+    "version": "v13.0.1"
+  },
+  "Young Link": {
+    "internal_name": "younglink",
+    "value": "young-link",
+    "number": "22",
+    "id": 25,
+    "series": "legend-of-zelda",
+    "completed": true,
+    "version": "v13.0.1"
+  },
+  "Snake": {
+    "internal_name": "snake",
+    "value": "snake",
+    "number": "31",
+    "id": 36,
+    "series": "metal-gear",
+    "completed": true,
+    "version": "v13.0.1"
+  },
+  "Squirtle": {
+    "internal_name": "pzenigame",
+    "value": "squirtle",
+    "number": "33",
+    "id": 38,
+    "series": "pokemon",
+    "completed": true,
+    "version": "v13.0.1"
+  },
+  "Ivysaur": {
+    "internal_name": "pfushigisou",
+    "value": "ivysaur",
+    "number": "34",
+    "id": 39,
+    "series": "pokemon",
+    "completed": true,
+    "version": "v13.0.1"
+  },
+  "Wolf": {
+    "internal_name": "wolf",
+    "value": "wolf",
+    "number": "44",
+    "id": 49,
+    "series": "star-fox",
+    "completed": true,
+    "version": "v13.0.1"
+  },
+  "Inkling": {
+    "internal_name": "inkling",
+    "value": "inkling",
+    "number": "64",
+    "id": 70,
+    "series": "splatoon",
+    "completed": true,
+    "version": "v13.0.1"
+  },
+  "Daisy": {
+    "internal_name": "daisy",
+    "value": "daisy",
+    "number": "13e",
+    "id": 15,
+    "series": "super-mario",
+    "completed": true,
+    "version": "v13.0.1"
+  },
+  "Ridley": {
+    "internal_name": "ridley",
+    "value": "ridley",
+    "number": "65",
+    "id": 71,
+    "series": "metroid",
+    "completed": true,
+    "version": "v13.0.1"
+  },
+  "Chrom": {
+    "internal_name": "chrom",
+    "value": "chrom",
+    "number": "25e",
+    "id": 29,
+    "series": "fire-emblem",
+    "completed": true,
+    "version": "v13.0.1"
+  },
+  "Dark Samus": {
+    "internal_name": "samusd",
+    "value": "dark-samus",
+    "number": "04e",
+    "id": 5,
+    "series": "metroid",
+    "completed": true,
+    "version": "v13.0.1"
+  },
+  "Simon": {
+    "internal_name": "simon",
+    "value": "simon",
+    "number": "66",
+    "id": 72,
+    "series": "castlevania",
+    "completed": true,
+    "version": "v13.0.1"
+  },
+  "Richter": {
+    "internal_name": "richter",
+    "value": "richter",
+    "number": "66e",
+    "id": 73,
+    "series": "castlevania",
+    "completed": true,
+    "version": "v13.0.1"
+  },
+  "King K. Rool": {
+    "internal_name": "krool",
+    "value": "king-k-rool",
+    "number": "67",
+    "id": 74,
+    "series": "donkey-kong",
+    "completed": true,
+    "version": "v13.0.1"
+  },
+  "Isabelle": {
+    "internal_name": "shizue",
+    "value": "isabelle",
+    "number": "68",
+    "id": 75,
+    "series": "animal-crossing",
+    "completed": true,
+    "version": "v13.0.1"
+  },
+  "Ken": {
+    "internal_name": "ken",
+    "value": "ken",
+    "number": "60e",
+    "id": 66,
+    "series": "street-fighter",
+    "completed": true,
+    "version": "v13.0.1"
+  },
+  "Incineroar": {
+    "internal_name": "gaogaen",
+    "value": "incineroar",
+    "number": "69",
+    "id": 76,
+    "series": "pokemon",
+    "completed": true,
+    "version": "v13.0.1"
+  },
+  "Piranha Plant": {
+    "internal_name": "packun",
+    "value": "piranha-plant",
+    "number": "70",
+    "id": 77,
+    "series": "super-mario",
+    "completed": true,
+    "version": "v13.0.1"
+  },
+  "Joker": {
+    "internal_name": "jack",
+    "value": "joker",
+    "number": "71",
+    "id": 78,
+    "series": "persona",
+    "completed": true,
+    "version": "v13.0.1"
+  },
+  "Hero": {
+    "internal_name": "brave",
+    "value": "hero",
+    "number": "72",
+    "id": 79,
+    "series": "dragon-quest",
+    "completed": true,
+    "version": "v13.0.1"
+  },
+  "Banjo & Kazooie": {
+    "internal_name": "buddy",
+    "value": "banjo-kazooie",
+    "number": "73",
+    "id": 80,
+    "series": "banjo-kazooie",
+    "completed": true,
+    "version": "v13.0.1"
+  },
+  "Terry": {
+    "internal_name": "dolly",
+    "value": "terry",
+    "number": "74",
+    "id": 81,
+    "series": "fatal-fury",
+    "completed": true,
+    "version": "v13.0.1"
+  },
+  "Byleth": {
+    "internal_name": "master",
+    "value": "byleth",
+    "number": "75",
+    "id": 82,
+    "series": "fire-emblem",
+    "completed": true,
+    "version": "v13.0.1"
+  },
+  "Min Min": {
+    "internal_name": "tantan",
+    "value": "min-min",
+    "number": "76",
+    "id": 83,
+    "series": "arms",
+    "completed": true,
+    "version": "v13.0.1"
+  },
+  "Steve": {
+    "internal_name": "pickel",
+    "value": "steve",
+    "number": "77",
+    "id": 84,
+    "series": "minecraft",
+    "completed": true,
+    "version": "v13.0.1"
+  },
+  "Sephiroth": {
+    "internal_name": "edge",
+    "value": "sephiroth",
+    "number": "78",
+    "id": 85,
+    "series": "final-fantasy",
+    "completed": true,
+    "version": "v13.0.1"
+  },
+  "Pyra": {
+    "internal_name": "eflame",
+    "value": "pyra",
+    "number": "79",
+    "id": 86,
+    "series": "xenoblade",
+    "completed": true,
+    "version": "v13.0.1"
+  },
+  "Mythra": {
+    "internal_name": "elight",
+    "value": "mythra",
+    "number": "80",
+    "id": 87,
+    "series": "xenoblade",
+    "completed": true,
+    "version": "v13.0.1"
+  },
+  "Kazuya": {
+    "internal_name": "demon",
+    "value": "kazuya",
+    "number": "81",
+    "id": 88,
+    "series": "tekken",
+    "completed": true,
+    "version": "v13.0.1"
+  },
+  "Sora": {
+    "internal_name": "trail",
+    "value": "sora",
+    "number": "82",
+    "id": 89,
+    "series": "kingdom-hearts",
+    "completed": true,
+    "version": "v13.0.1"
+  }
+}
