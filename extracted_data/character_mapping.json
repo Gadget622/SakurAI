@@ -1,6 +1,7 @@
 {
   "Mario": {
     "internal_name": "mario",
+    "game_name": "mario",
     "value": "mario",
     "number": "01",
     "id": 1,
@@ -10,6 +11,7 @@
   },
   "Luigi": {
     "internal_name": "luigi",
+    "game_name": "luigi",
     "value": "luigi",
     "number": "09",
     "id": 10,
@@ -19,6 +21,7 @@
   },
   "Peach": {
     "internal_name": "peach",
+    "game_name": "peach",
     "value": "peach",
     "number": "13",
     "id": 14,
@@ -28,6 +31,7 @@
   },
   "Bowser": {
     "internal_name": "koopa",
+    "game_name": "koopa",
     "value": "bowser",
     "number": "14",
     "id": 16,
@@ -37,6 +41,7 @@
   },
   "Yoshi": {
     "internal_name": "yoshi",
+    "game_name": "yoshi",
     "value": "yoshi",
     "number": "05",
     "id": 6,
@@ -46,6 +51,7 @@
   },
   "Rosalina & Luma": {
     "internal_name": "rosetta",
+    "game_name": "rosetta",
     "value": "rosalina-luma",
     "number": "48",
     "id": 53,
@@ -55,6 +61,7 @@
   },
   "Bowser Jr.": {
     "internal_name": "koopajr",
+    "game_name": "koopajr",
     "value": "bowser-jr",
     "number": "58",
     "id": 63,
@@ -64,6 +71,7 @@
   },
   "Wario": {
     "internal_name": "wario",
+    "game_name": "wario",
     "value": "wario",
     "number": "30",
     "id": 35,
@@ -73,6 +81,7 @@
   },
   "Donkey Kong": {
     "internal_name": "donkey",
+    "game_name": "donkey",
     "value": "donkey-kong",
     "number": "02",
     "id": 2,
@@ -82,6 +91,7 @@
   },
   "Diddy Kong": {
     "internal_name": "diddy",
+    "game_name": "diddy",
     "value": "diddy-kong",
     "number": "36",
     "id": 41,
@@ -91,6 +101,7 @@
   },
   "Mr. Game & Watch": {
     "internal_name": "gamewatch",
+    "game_name": "gamewatch",
     "value": "mr-game-watch",
     "number": "26",
     "id": 30,
@@ -100,6 +111,7 @@
   },
   "Little Mac": {
     "internal_name": "littlemac",
+    "game_name": "littlemac",
     "value": "little-mac",
     "number": "49",
     "id": 54,
@@ -109,6 +121,7 @@
   },
   "Link": {
     "internal_name": "link",
+    "game_name": "link",
     "value": "link",
     "number": "03",
     "id": 3,
@@ -118,6 +131,7 @@
   },
   "Zelda": {
     "internal_name": "zelda",
+    "game_name": "zelda",
     "value": "zelda",
     "number": "17",
     "id": 19,
@@ -127,6 +141,7 @@
   },
   "Sheik": {
     "internal_name": "sheik",
+    "game_name": "sheik",
     "value": "sheik",
     "number": "16",
     "id": 18,
@@ -136,6 +151,7 @@
   },
   "Ganondorf": {
     "internal_name": "ganon",
+    "game_name": "ganon",
     "value": "ganondorf",
     "number": "23",
     "id": 26,
@@ -145,6 +161,7 @@
   },
   "Toon Link": {
     "internal_name": "toonlink",
+    "game_name": "toonlink",
     "value": "toon-link",
     "number": "43",
     "id": 48,
@@ -154,6 +171,7 @@
   },
   "Samus": {
     "internal_name": "samus",
+    "game_name": "samus",
     "value": "samus",
     "number": "04",
     "id": 4,
@@ -163,6 +181,7 @@
   },
   "Zero Suit Samus": {
     "internal_name": "szerosuit",
+    "game_name": "szerosuit",
     "value": "zero-suit-samus",
     "number": "29",
     "id": 34,
@@ -172,6 +191,7 @@
   },
   "Pit": {
     "internal_name": "pit",
+    "game_name": "pit",
     "value": "pit",
     "number": "28",
     "id": 32,
@@ -181,6 +201,7 @@
   },
   "Palutena": {
     "internal_name": "palutena",
+    "game_name": "palutena",
     "value": "palutena",
     "number": "54",
     "id": 59,
@@ -190,6 +211,7 @@
   },
   "Marth": {
     "internal_name": "marth",
+    "game_name": "marth",
     "value": "marth",
     "number": "21",
     "id": 23,
@@ -199,6 +221,7 @@
   },
   "Ike": {
     "internal_name": "ike",
+    "game_name": "ike",
     "value": "ike",
     "number": "32",
     "id": 37,
@@ -208,6 +231,7 @@
   },
   "Robin": {
     "internal_name": "reflet",
+    "game_name": "reflet",
     "value": "robin",
     "number": "56",
     "id": 61,
@@ -217,6 +241,7 @@
   },
   "Duck Hunt": {
     "internal_name": "duckhunt",
+    "game_name": "duckhunt",
     "value": "duck-hunt",
     "number": "59",
     "id": 64,
@@ -226,6 +251,7 @@
   },
   "Kirby": {
     "internal_name": "kirby",
+    "game_name": "kirby",
     "value": "kirby",
     "number": "06",
     "id": 7,
@@ -235,6 +261,7 @@
   },
   "King Dedede": {
     "internal_name": "dedede",
+    "game_name": "dedede",
     "value": "king-dedede",
     "number": "39",
     "id": 44,
@@ -244,6 +271,7 @@
   },
   "Meta Knight": {
     "internal_name": "metaknight",
+    "game_name": "metaknight",
     "value": "meta-knight",
     "number": "27",
     "id": 31,
@@ -253,6 +281,7 @@
   },
   "Fox": {
     "internal_name": "fox",
+    "game_name": "fox",
     "value": "fox",
     "number": "07",
     "id": 8,
@@ -262,6 +291,7 @@
   },
   "Falco": {
     "internal_name": "falco",
+    "game_name": "falco",
     "value": "falco",
     "number": "20",
     "id": 22,
@@ -271,6 +301,7 @@
   },
   "Pikachu": {
     "internal_name": "pikachu",
+    "game_name": "pikachu",
     "value": "pikachu",
     "number": "08",
     "id": 9,
@@ -280,6 +311,7 @@
   },
   "Charizard": {
     "internal_name": "plizardon",
+    "game_name": "plizardon",
     "value": "charizard",
     "number": "35",
     "id": 40,
@@ -289,6 +321,7 @@
   },
   "Lucario": {
     "internal_name": "lucario",
+    "game_name": "lucario",
     "value": "lucario",
     "number": "41",
     "id": 46,
@@ -298,6 +331,7 @@
   },
   "Jigglypuff": {
     "internal_name": "purin",
+    "game_name": "purin",
     "value": "jigglypuff",
     "number": "12",
     "id": 13,
@@ -307,6 +341,7 @@
   },
   "Greninja": {
     "internal_name": "gekkouga",
+    "game_name": "gekkouga",
     "value": "greninja",
     "number": "50",
     "id": 55,
@@ -317,6 +352,7 @@
   "R.O.B": "robot",
   "Ness": {
     "internal_name": "ness",
+    "game_name": "ness",
     "value": "ness",
     "number": "10",
     "id": 11,
@@ -326,6 +362,7 @@
   },
   "Captain Falcon": {
     "internal_name": "captain",
+    "game_name": "captain",
     "value": "captain-falcon",
     "number": "11",
     "id": 12,
@@ -335,6 +372,7 @@
   },
   "Villager": {
     "internal_name": "murabito",
+    "game_name": "murabito",
     "value": "villager",
     "number": "45",
     "id": 50,
@@ -344,6 +382,7 @@
   },
   "Olimar": {
     "internal_name": "pikmin",
+    "game_name": "pikmin",
     "value": "olimar",
     "number": "40",
     "id": 45,
@@ -353,6 +392,7 @@
   },
   "Wii Fit Trainer": {
     "internal_name": "wiifit",
+    "game_name": "wiifit",
     "value": "wii-fit-trainer",
     "number": "47",
     "id": 52,
@@ -362,6 +402,7 @@
   },
   "Shulk": {
     "internal_name": "shulk",
+    "game_name": "shulk",
     "value": "shulk",
     "number": "57",
     "id": 62,
@@ -371,6 +412,7 @@
   },
   "Dr. Mario": {
     "internal_name": "mariod",
+    "game_name": "mariod",
     "value": "dr-mario",
     "number": "18",
     "id": 20,
@@ -380,6 +422,7 @@
   },
   "Dark Pit": {
     "internal_name": "pitb",
+    "game_name": "pitb",
     "value": "dark-pit",
     "number": "28e",
     "id": 33,
@@ -389,6 +432,7 @@
   },
   "Lucina": {
     "internal_name": "lucina",
+    "game_name": "lucina",
     "value": "lucina",
     "number": "21e",
     "id": 24,
@@ -398,6 +442,7 @@
   },
   "PAC-MAN": {
     "internal_name": "pacman",
+    "game_name": "pacman",
     "value": "pac-man",
     "number": "55",
     "id": 60,
@@ -407,6 +452,7 @@
   },
   "Mega Man": {
     "internal_name": "rockman",
+    "game_name": "rockman",
     "value": "mega-man",
     "number": "46",
     "id": 51,
@@ -416,6 +462,7 @@
   },
   "Sonic": {
     "internal_name": "sonic",
+    "game_name": "sonic",
     "value": "sonic",
     "number": "38",
     "id": 43,
@@ -425,6 +472,7 @@
   },
   "Mewtwo": {
     "internal_name": "mewtwo",
+    "game_name": "mewtwo",
     "value": "mewtwo",
     "number": "24",
     "id": 27,
@@ -434,6 +482,7 @@
   },
   "Lucas": {
     "internal_name": "lucas",
+    "game_name": "lucas",
     "value": "lucas",
     "number": "37",
     "id": 42,
@@ -443,6 +492,7 @@
   },
   "Roy": {
     "internal_name": "roy",
+    "game_name": "roy",
     "value": "roy",
     "number": "25",
     "id": 28,
@@ -452,6 +502,7 @@
   },
   "Ryu": {
     "internal_name": "ryu",
+    "game_name": "ryu",
     "value": "ryu",
     "number": "60",
     "id": 65,
@@ -461,6 +512,7 @@
   },
   "Cloud": {
     "internal_name": "cloud",
+    "game_name": "cloud",
     "value": "cloud",
     "number": "61",
     "id": 67,
@@ -470,6 +522,7 @@
   },
   "Corrin": {
     "internal_name": "kamui",
+    "game_name": "kamui",
     "value": "corrin",
     "number": "62",
     "id": 68,
@@ -479,6 +532,7 @@
   },
   "Bayonetta": {
     "internal_name": "bayonetta",
+    "game_name": "bayonetta",
     "value": "bayonetta",
     "number": "63",
     "id": 69,
@@ -488,6 +542,7 @@
   },
   "Mii Swordfighter": {
     "internal_name": "miiswordsman",
+    "game_name": "miiswordsman",
     "value": "mii-swordfighter",
     "number": "52",
     "id": 57,
@@ -497,6 +552,7 @@
   },
   "Mii Brawler": {
     "internal_name": "miifighter",
+    "game_name": "miifighter",
     "value": "mii-brawler",
     "number": "51",
     "id": 56,
@@ -506,6 +562,7 @@
   },
   "Mii Gunner": {
     "internal_name": "miigunner",
+    "game_name": "miigunner",
     "value": "mii-gunner",
     "number": "53",
     "id": 58,
@@ -515,6 +572,7 @@
   },
   "Ice Climbers": {
     "internal_name": "popo",
+    "game_name": "popo",
     "value": "ice-climbers",
     "number": "15",
     "id": 17,
@@ -524,6 +582,7 @@
   },
   "Pichu": {
     "internal_name": "pichu",
+    "game_name": "pichu",
     "value": "pichu",
     "number": "19",
     "id": 21,
@@ -533,6 +592,7 @@
   },
   "Young Link": {
     "internal_name": "younglink",
+    "game_name": "younglink",
     "value": "young-link",
     "number": "22",
     "id": 25,
@@ -542,6 +602,7 @@
   },
   "Snake": {
     "internal_name": "snake",
+    "game_name": "snake",
     "value": "snake",
     "number": "31",
     "id": 36,
@@ -551,6 +612,7 @@
   },
   "Squirtle": {
     "internal_name": "pzenigame",
+    "game_name": "pzenigame",
     "value": "squirtle",
     "number": "33",
     "id": 38,
@@ -560,6 +622,7 @@
   },
   "Ivysaur": {
     "internal_name": "pfushigisou",
+    "game_name": "pfushigisou",
     "value": "ivysaur",
     "number": "34",
     "id": 39,
@@ -569,6 +632,7 @@
   },
   "Wolf": {
     "internal_name": "wolf",
+    "game_name": "wolf",
     "value": "wolf",
     "number": "44",
     "id": 49,
@@ -578,6 +642,7 @@
   },
   "Inkling": {
     "internal_name": "inkling",
+    "game_name": "inkling",
     "value": "inkling",
     "number": "64",
     "id": 70,
@@ -587,6 +652,7 @@
   },
   "Daisy": {
     "internal_name": "daisy",
+    "game_name": "daisy",
     "value": "daisy",
     "number": "13e",
     "id": 15,
@@ -596,6 +662,7 @@
   },
   "Ridley": {
     "internal_name": "ridley",
+    "game_name": "ridley",
     "value": "ridley",
     "number": "65",
     "id": 71,
@@ -605,6 +672,7 @@
   },
   "Chrom": {
     "internal_name": "chrom",
+    "game_name": "chrom",
     "value": "chrom",
     "number": "25e",
     "id": 29,
@@ -614,6 +682,7 @@
   },
   "Dark Samus": {
     "internal_name": "samusd",
+    "game_name": "samusd",
     "value": "dark-samus",
     "number": "04e",
     "id": 5,
@@ -623,6 +692,7 @@
   },
   "Simon": {
     "internal_name": "simon",
+    "game_name": "simon",
     "value": "simon",
     "number": "66",
     "id": 72,
@@ -632,6 +702,7 @@
   },
   "Richter": {
     "internal_name": "richter",
+    "game_name": "richter",
     "value": "richter",
     "number": "66e",
     "id": 73,
@@ -641,6 +712,7 @@
   },
   "King K. Rool": {
     "internal_name": "krool",
+    "game_name": "krool",
     "value": "king-k-rool",
     "number": "67",
     "id": 74,
@@ -650,6 +722,7 @@
   },
   "Isabelle": {
     "internal_name": "shizue",
+    "game_name": "shizue",
     "value": "isabelle",
     "number": "68",
     "id": 75,
@@ -659,6 +732,7 @@
   },
   "Ken": {
     "internal_name": "ken",
+    "game_name": "ken",
     "value": "ken",
     "number": "60e",
     "id": 66,
@@ -668,6 +742,7 @@
   },
   "Incineroar": {
     "internal_name": "gaogaen",
+    "game_name": "gaogaen",
     "value": "incineroar",
     "number": "69",
     "id": 76,
@@ -677,6 +752,7 @@
   },
   "Piranha Plant": {
     "internal_name": "packun",
+    "game_name": "packun",
     "value": "piranha-plant",
     "number": "70",
     "id": 77,
@@ -686,6 +762,7 @@
   },
   "Joker": {
     "internal_name": "jack",
+    "game_name": "jack",
     "value": "joker",
     "number": "71",
     "id": 78,
@@ -695,6 +772,7 @@
   },
   "Hero": {
     "internal_name": "brave",
+    "game_name": "brave",
     "value": "hero",
     "number": "72",
     "id": 79,
@@ -704,6 +782,7 @@
   },
   "Banjo & Kazooie": {
     "internal_name": "buddy",
+    "game_name": "buddy",
     "value": "banjo-kazooie",
     "number": "73",
     "id": 80,
@@ -713,6 +792,7 @@
   },
   "Terry": {
     "internal_name": "dolly",
+    "game_name": "dolly",
     "value": "terry",
     "number": "74",
     "id": 81,
@@ -722,6 +802,7 @@
   },
   "Byleth": {
     "internal_name": "master",
+    "game_name": "master",
     "value": "byleth",
     "number": "75",
     "id": 82,
@@ -731,6 +812,7 @@
   },
   "Min Min": {
     "internal_name": "tantan",
+    "game_name": "tantan",
     "value": "min-min",
     "number": "76",
     "id": 83,
@@ -740,6 +822,7 @@
   },
   "Steve": {
     "internal_name": "pickel",
+    "game_name": "pickel",
     "value": "steve",
     "number": "77",
     "id": 84,
@@ -749,6 +832,7 @@
   },
   "Sephiroth": {
     "internal_name": "edge",
+    "game_name": "edge",
     "value": "sephiroth",
     "number": "78",
     "id": 85,
@@ -758,6 +842,7 @@
   },
   "Pyra": {
     "internal_name": "eflame",
+    "game_name": "eflame",
     "value": "pyra",
     "number": "79",
     "id": 86,
@@ -767,6 +852,7 @@
   },
   "Mythra": {
     "internal_name": "elight",
+    "game_name": "elight",
     "value": "mythra",
     "number": "80",
     "id": 87,
@@ -776,6 +862,7 @@
   },
   "Kazuya": {
     "internal_name": "demon",
+    "game_name": "demon",
     "value": "kazuya",
     "number": "81",
     "id": 88,
@@ -785,6 +872,7 @@
   },
   "Sora": {
     "internal_name": "trail",
+    "game_name": "trail",
     "value": "sora",
     "number": "82",
     "id": 89,

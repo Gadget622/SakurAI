@@ -80,10 +80,19 @@ def analyze_data_structure(character_data, character_attributes):
     # Add character attribute fields
     attribute_fields = set()
     if character_attributes:
-        for char_id, attr in character_attributes.items():
-            if isinstance(attr, dict):
-                for field in attr.keys():
-                    attribute_fields.add(field)
+        # Check if character_attributes is a list or dictionary
+        if isinstance(character_attributes, list):
+            # Handle as a list of dictionaries
+            for attr in character_attributes:
+                if isinstance(attr, dict):
+                    for field in attr.keys():
+                        attribute_fields.add(field)
+        elif isinstance(character_attributes, dict):
+            # Handle as a dictionary
+            for char_id, attr in character_attributes.items():
+                if isinstance(attr, dict):
+                    for field in attr.keys():
+                        attribute_fields.add(field)
     
     # Move data
     move_fields = set()
@@ -146,21 +155,43 @@ def prepare_data_for_csv(character_data, character_attributes, structure):
     
     # Create a mapping of character IDs to their file names
     char_id_mapping = {}
+    
     if character_attributes:
-        for char_file in character_data.keys():
-            if char_file in ['items', 'todo']:
-                continue
-                
-            # Try to find a matching character ID in characterData
+        # Handle character_attributes if it's a list
+        if isinstance(character_attributes, list):
+            for attr in character_attributes:
+                if isinstance(attr, dict) and 'name' in attr and 'id' in attr:
+                    char_id = attr['id']
+                    char_name = attr['name']
+                    
+                    # Find matching character file
+                    for char_file in character_data.keys():
+                        if char_file in ['items', 'todo']:
+                            continue
+                            
+                        # Match by name or filename (with number prefix removed)
+                        file_name_without_prefix = char_file.split('_', 1)[1] if '_' in char_file else char_file
+                        if (char_name.lower() == file_name_without_prefix.lower() or 
+                            char_name.lower().replace(' ', '-') == file_name_without_prefix.lower() or
+                            char_name.lower().replace(' & ', '-') == file_name_without_prefix.lower()):
+                            char_id_mapping[char_file] = char_id
+        # Handle character_attributes if it's a dictionary
+        elif isinstance(character_attributes, dict):
             for char_id, attr in character_attributes.items():
                 if isinstance(attr, dict) and 'name' in attr:
-                    # Match by name or filename (with number prefix removed)
-                    file_name_without_prefix = char_file.split('_', 1)[1] if '_' in char_file else char_file
-                    if (attr['name'].lower() == file_name_without_prefix.lower() or 
-                        attr['name'].lower().replace(' ', '-') == file_name_without_prefix.lower() or
-                        attr['name'].lower().replace(' & ', '-') == file_name_without_prefix.lower()):
-                        char_id_mapping[char_file] = char_id
-                        break
+                    char_name = attr['name']
+                    
+                    # Find matching character file
+                    for char_file in character_data.keys():
+                        if char_file in ['items', 'todo']:
+                            continue
+                            
+                        # Match by name or filename (with number prefix removed)
+                        file_name_without_prefix = char_file.split('_', 1)[1] if '_' in char_file else char_file
+                        if (char_name.lower() == file_name_without_prefix.lower() or 
+                            char_name.lower().replace(' ', '-') == file_name_without_prefix.lower() or
+                            char_name.lower().replace(' & ', '-') == file_name_without_prefix.lower()):
+                            char_id_mapping[char_file] = char_id
     
     for char_name, char_data in character_data.items():
         # Skip non-character data files
@@ -181,15 +212,29 @@ def prepare_data_for_csv(character_data, character_attributes, structure):
         
         # Add attribute data if available
         char_id = char_id_mapping.get(char_name)
-        if char_id and character_attributes and char_id in character_attributes:
+        
+        if char_id and character_attributes:
             char_row["internal_id"] = char_id
-            attr = character_attributes[char_id]
-            if isinstance(attr, dict):
-                for field in structure["attribute_fields"]:
-                    if field in attr:
-                        char_row[f"attr_{field}"] = attr[field]
-                    else:
-                        char_row[f"attr_{field}"] = None
+            
+            # Handle character_attributes appropriately based on its type
+            if isinstance(character_attributes, list):
+                # Find matching attribute in the list
+                for attr in character_attributes:
+                    if attr.get('id') == char_id:
+                        for field in structure["attribute_fields"]:
+                            if field in attr:
+                                char_row[f"attr_{field}"] = attr[field]
+                            else:
+                                char_row[f"attr_{field}"] = None
+                        break
+            elif isinstance(character_attributes, dict) and char_id in character_attributes:
+                attr = character_attributes[char_id]
+                if isinstance(attr, dict):
+                    for field in structure["attribute_fields"]:
+                        if field in attr:
+                            char_row[f"attr_{field}"] = attr[field]
+                        else:
+                            char_row[f"attr_{field}"] = None
         
         character_rows.append(char_row)
     

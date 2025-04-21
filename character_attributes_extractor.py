@@ -7,36 +7,104 @@ def load_character_mapping():
     """
     Create a mapping between character display names and internal names
     """
-    # From the JS codebase
-    display_names = ["Mario", "Luigi", "Peach", "Bowser", "Yoshi", "Rosalina & Luma", "Bowser Jr.", "Wario", 
-                    "Donkey Kong", "Diddy Kong", "Mr. Game & Watch", "Little Mac", "Link", "Zelda", "Sheik", 
-                    "Ganondorf", "Toon Link", "Samus", "Zero Suit Samus", "Pit", "Palutena", "Marth", "Ike", 
-                    "Robin", "Duck Hunt", "Kirby", "King Dedede", "Meta Knight", "Fox", "Falco", "Pikachu", 
-                    "Charizard", "Lucario", "Jigglypuff", "Greninja", "R.O.B", "Ness", "Captain Falcon", 
-                    "Villager", "Olimar", "Wii Fit Trainer", "Shulk", "Dr. Mario", "Dark Pit", "Lucina", 
-                    "PAC-MAN", "Mega Man", "Sonic", "Mewtwo", "Lucas", "Roy", "Ryu", "Cloud", "Corrin", 
-                    "Bayonetta", "Mii Swordfighter", "Mii Brawler", "Mii Gunner", "Ice Climbers", "Pichu", 
-                    "Young Link", "Snake", "Squirtle", "Ivysaur", "Wolf", "Inkling", "Daisy", "Ridley", 
-                    "Chrom", "Dark Samus", "Simon", "Richter", "King K. Rool", "Isabelle", "Ken", 
-                    "Incineroar", "Piranha Plant", "Joker", "Hero", "Banjo & Kazooie", "Terry", "Byleth", 
-                    "Min Min", "Steve", "Sephiroth", "Pyra", "Mythra", "Kazuya", "Sora"]
-    
-    game_names = ["mario", "luigi", "peach", "koopa", "yoshi", "rosetta", "koopajr", "wario", "donkey", 
-                 "diddy", "gamewatch", "littlemac", "link", "zelda", "sheik", "ganon", "toonlink", "samus", 
-                 "szerosuit", "pit", "palutena", "marth", "ike", "reflet", "duckhunt", "kirby", "dedede", 
-                 "metaknight", "fox", "falco", "pikachu", "plizardon", "lucario", "purin", "gekkouga", "robot", 
-                 "ness", "captain", "murabito", "pikmin", "wiifit", "shulk", "mariod", "pitb", "lucina", 
-                 "pacman", "rockman", "sonic", "mewtwo", "lucas", "roy", "ryu", "cloud", "kamui", "bayonetta", 
-                 "miiswordsman", "miifighter", "miigunner", "popo", "pichu", "younglink", "snake", "pzenigame", 
-                 "pfushigisou", "wolf", "inkling", "daisy", "ridley", "chrom", "samusd", "simon", "richter", 
-                 "krool", "shizue", "ken", "gaogaen", "packun", "jack", "brave", "buddy", "dolly", "master", 
-                 "tantan", "pickel", "edge", "eflame", "elight", "demon", "trail"]
+    # Create a combined dictionary of display names to game names
+    display_to_game_names = {
+        "Mario": "mario",
+        "Luigi": "luigi", 
+        "Peach": "peach", 
+        "Bowser": "koopa", 
+        "Yoshi": "yoshi", 
+        "Rosalina & Luma": "rosetta", 
+        "Bowser Jr.": "koopajr", 
+        "Wario": "wario", 
+        "Donkey Kong": "donkey", 
+        "Diddy Kong": "diddy", 
+        "Mr. Game & Watch": "gamewatch", 
+        "Little Mac": "littlemac", 
+        "Link": "link", 
+        "Zelda": "zelda", 
+        "Sheik": "sheik", 
+        "Ganondorf": "ganon", 
+        "Toon Link": "toonlink", 
+        "Samus": "samus", 
+        "Zero Suit Samus": "szerosuit", 
+        "Pit": "pit", 
+        "Palutena": "palutena", 
+        "Marth": "marth", 
+        "Ike": "ike", 
+        "Robin": "reflet", 
+        "Duck Hunt": "duckhunt", 
+        "Kirby": "kirby", 
+        "King Dedede": "dedede", 
+        "Meta Knight": "metaknight", 
+        "Fox": "fox", 
+        "Falco": "falco", 
+        "Pikachu": "pikachu", 
+        "Charizard": "plizardon", 
+        "Lucario": "lucario", 
+        "Jigglypuff": "purin", 
+        "Greninja": "gekkouga", 
+        "R.O.B": "robot", 
+        "Ness": "ness", 
+        "Captain Falcon": "captain", 
+        "Villager": "murabito", 
+        "Olimar": "pikmin", 
+        "Wii Fit Trainer": "wiifit", 
+        "Shulk": "shulk", 
+        "Dr. Mario": "mariod", 
+        "Dark Pit": "pitb", 
+        "Lucina": "lucina", 
+        "PAC-MAN": "pacman", 
+        "Mega Man": "rockman", 
+        "Sonic": "sonic", 
+        "Mewtwo": "mewtwo", 
+        "Lucas": "lucas", 
+        "Roy": "roy", 
+        "Ryu": "ryu", 
+        "Cloud": "cloud", 
+        "Corrin": "kamui", 
+        "Bayonetta": "bayonetta", 
+        "Mii Swordfighter": "miiswordsman", 
+        "Mii Brawler": "miifighter", 
+        "Mii Gunner": "miigunner", 
+        "Ice Climbers": "popo", 
+        "Pichu": "pichu", 
+        "Young Link": "younglink", 
+        "Snake": "snake", 
+        "Squirtle": "pzenigame", 
+        "Ivysaur": "pfushigisou", 
+        "Wolf": "wolf", 
+        "Inkling": "inkling", 
+        "Daisy": "daisy", 
+        "Ridley": "ridley", 
+        "Chrom": "chrom", 
+        "Dark Samus": "samusd", 
+        "Simon": "simon", 
+        "Richter": "richter", 
+        "King K. Rool": "krool", 
+        "Isabelle": "shizue", 
+        "Ken": "ken", 
+        "Incineroar": "gaogaen", 
+        "Piranha Plant": "packun", 
+        "Joker": "jack", 
+        "Hero": "brave", 
+        "Banjo & Kazooie": "buddy", 
+        "Terry": "dolly", 
+        "Byleth": "master", 
+        "Min Min": "tantan", 
+        "Steve": "pickel", 
+        "Sephiroth": "edge", 
+        "Pyra": "eflame", 
+        "Mythra": "elight", 
+        "Kazuya": "demon", 
+        "Sora": "trail"
+    }
     
     # Create the mapping
     char_mapping = {}
-    for i in range(len(display_names)):
-        if i < len(game_names):
-            char_mapping[display_names[i]] = game_names[i]
+    
+    for display_name, game_name in display_to_game_names.items():
+        char_mapping[display_name] = game_name
     
     # Add the character data from characterData.json
     char_data_path = Path.home() / "Documents" / "GitHub" / "ultimate-hitboxes" / "server" / "data" / "characterData.json"
@@ -48,10 +116,12 @@ def load_character_mapping():
                 value = char["value"]
                 number = char["number"]
                 # Add this information to our mapping
-                for display_name in display_names:
+                for display_name in display_to_game_names.keys():
                     if display_name.lower() == name.lower() or display_name.lower().replace(' & ', '-') == value.lower():
+                        game_name = display_to_game_names.get(display_name)
                         char_mapping[display_name] = {
-                            "internal_name": next((game_names[i] for i, dn in enumerate(display_names) if dn == display_name), None),
+                            "internal_name": game_name,
+                            "game_name": game_name,  # Add game_name explicitly
                             "value": value,
                             "number": number,
                             "id": char["id"],
@@ -61,9 +131,9 @@ def load_character_mapping():
                         }
                         break
     
-    return char_mapping
+    return char_mapping, display_to_game_names
 
-def extract_character_data(char_mapping):
+def extract_character_data(char_mapping, display_to_game_names):
     """
     Extract character data from SSBU-Calculator/Data directory
     """
@@ -92,12 +162,19 @@ def extract_character_data(char_mapping):
         # Find the display name that matches this internal name
         display_name = None
         for name, value in char_mapping.items():
-            if isinstance(value, dict) and value["internal_name"] == internal_name:
+            if isinstance(value, dict) and value.get("internal_name") == internal_name:
                 display_name = name
                 break
             elif value == internal_name:
                 display_name = name
                 break
+        
+        if not display_name:
+            # Try to find a match in the display_to_game_names mapping
+            for name, game_name in display_to_game_names.items():
+                if game_name == internal_name:
+                    display_name = name
+                    break
         
         if not display_name:
             print(f"Warning: Could not find display name for internal name '{internal_name}'")
@@ -111,6 +188,7 @@ def extract_character_data(char_mapping):
                     data = json.load(f)
                     character_data[display_name] = {
                         "internal_name": internal_name,
+                        "game_name": internal_name,  # Add game_name explicitly
                         "data": data
                     }
                     print(f"Loaded data for {display_name} ({internal_name})")
@@ -123,7 +201,7 @@ def extract_character_data(char_mapping):
     
     return character_data
 
-def save_output(char_mapping, character_data):
+def save_output(char_mapping, character_data, display_to_game_names):
     """
     Save the extracted data and mapping to JSON files
     """
@@ -137,6 +215,12 @@ def save_output(char_mapping, character_data):
         json.dump(char_mapping, f, indent=2)
     print(f"Saved character mapping to {mapping_file}")
     
+    # Save display_name to game_name mapping
+    name_game_mapping_file = output_path / "display_to_game_names.json"
+    with open(name_game_mapping_file, 'w', encoding='utf-8') as f:
+        json.dump(display_to_game_names, f, indent=2)
+    print(f"Saved display_name to game_name mapping to {name_game_mapping_file}")
+    
     # Save character data
     data_file = output_path / "character_attributes.json"
     with open(data_file, 'w', encoding='utf-8') as f:
@@ -145,14 +229,15 @@ def save_output(char_mapping, character_data):
 
 if __name__ == "__main__":
     print("Loading character mapping...")
-    char_mapping = load_character_mapping()
+    char_mapping, display_to_game_names = load_character_mapping()
     print(f"Mapped {len(char_mapping)} characters")
+    print(f"Created display_name to game_name mapping with {len(display_to_game_names)} entries")
     
     print("\nExtracting character data from SSBU-Calculator...")
-    character_data = extract_character_data(char_mapping)
+    character_data = extract_character_data(char_mapping, display_to_game_names)
     print(f"Extracted data for {len(character_data)} characters")
     
     print("\nSaving output files...")
-    save_output(char_mapping, character_data)
+    save_output(char_mapping, character_data, display_to_game_names)
     
     print("\nData extraction complete!")
